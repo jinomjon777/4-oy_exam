@@ -11,6 +11,11 @@ const PORT=process.env.PORT || 3000
 app.use(cors())
 app.use(express.json()) 
 
+app.get("/", (req, res) => {
+  res.send("Server ishlayapti 🚀");
+});
+
+
 app.use(authRouter)
 app.use(todoRouter)
 
