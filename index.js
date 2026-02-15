@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json()) 
 
 app.get("/", (req, res) => {
-  res.send("Server ishlayapti 🚀");
+  res.send("Server ishlayapti!!!");
 });
 
 
